@@ -5,7 +5,7 @@ export default function Lefthome(props){
     return(  
             <div className="flex flex-col">
                 <div className="size-[31.25rem] mb-4">
-                    <img src={props.mainImage} className=" rounded-3xl"></img>
+                    <img onClick={props.big} src={props.mainImage} className="rounded-3xl"></img>
                 </div>
             </div>  
     ) 
